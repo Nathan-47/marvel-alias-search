@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap");
+
+* {
+  margin: 0;
+  font-family: 'Odibee Sans';
+  background-color: white;
+}
+
+/*sass styling*/
+$primary-text-color: black;
+$primary-bkg-color: #FB5A5A;
+$secondary-bkg-color: white;
+
+@mixin border-radius($radius) {
+  -webkit-border-radius:$radius;
+  -moz-border-radius:$radius;
+  -ms-border-radius:$radius;
+  border-radius: $radius;
+}
+
+@mixin letter-spacing($spacing){
+  -webkit-border-radius:$spacing;
+  -moz-border-radius:$spacing;
+  -ms-border-radius:$spacing;
+  letter-spacing: $spacing;
+}
+/*sass styling*/
+
+.content-content {
+  margin: 60px auto;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.title {
+  margin: 60px auto;
+  padding: 10px;
+}
+
+.title h1 {
+  @include letter-spacing(1.5px);
+  text-align: center;
+  color: $primary-text-color;
+}
+
+.main-card {
+  max-width: 500px;
+  margin: 40px auto;
+  border: 5px solid $primary-text-color;
+  border-radius: 5px;
+}
+
+.main-card img {
+  height: 150px;
+  width: 135px;
+  border: 5px solid $primary-text-color;
+}
+
+.card-body, .container, .card-text, .col{
+  background-color: $primary-bkg-color;
+}
+
+#character-name {
+  background-color: $primary-bkg-color;
+  margin: 50px auto;
+  padding: 0 60px;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 600;
+  @include letter-spacing(1.5px);
+}
+
+#character-bio {
+  background-color: $secondary-bkg-color;
+  color: $primary-text-color;
+  margin: 10px auto;
+  padding: 30px 30px;
+  border-radius: 5px;
+  font-size: 18px;
+  letter-spacing: 1.5px;
+  box-shadow: $primary-text-color;
+}
+
+#name-input {
+  margin: 0 115px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 22px;
+  font-weight: 600;
+  width: 50%;
+  border-radius: 5px;
+  -webkit-border-radius: 1.5px;
+  -moz-border-radius: 1.5px;
+  -ms-border-radius: 1.5px;
+  letter-spacing: 1.5px;
+  border: 3px solid $primary-text-color;
+  text-align: center;
+}
+
+.contents {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 1rem;
+}
+
+.search-bar{
+  max-width: 500px;
+  margin: 10px auto;
+  border-radius: 5px;
+  }
+  
+  #name-img {
+    width: 45px;
+    height: 45px;
+  }
+
+  .name-logo{
+    width: 100%;
+    text-align: center;
+  }
