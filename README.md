@@ -19,7 +19,7 @@ To prevent all the characters being displayed at one time I had to visit a devel
 
 <br />
 
-## Improvments future features
+## Improvements for future features
 - Could have created another page for api endpoints url’s to make page cleaner and insert said url’s into app.js page via a const call.
 
 - Feel there is a lack of userbaility, an erase feature on input box could be implemented to make it easier for user to erase content within the input box rather than have to delete everything from input box via backspace.
