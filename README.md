@@ -2,6 +2,10 @@
 
 This project is bult with React and allows the user to search for a marvel character within the marvel database and in return be displayed the typed in character’s name, bio and image using the marvel API and styling help using SCSS.
 
+#### How to use
+- **May be some characters that are not available to be seen** 
+-	Type In a marvel character into input and information of desired character will be returned.
+
 <br />
 
 ## What I Learnt
