@@ -22,9 +22,11 @@ To prevent all the characters being displayed at one time I had to visit a devel
 ## Improvements for future features
 - Could have created another page for api endpoints url’s to make page cleaner and insert said url’s into app.js page via a const call.
 
-- Feel there is a lack of userbaility, an erase feature on input box could be implemented to make it easier for user to erase content within the input box rather than have to delete everything from input box via backspace.
+- Feel there is a lack of useaility, an erase feature on input box could be implemented to make it easier for user to erase content within the input box rather than have to delete everything from input box via backspace.
 
 - Make the look of the card much cleaner and professional, add more styling for example box shadow would give more of an out of the screen effect just like a comic.
+
+- Make the app responsive to all devices, even though the intention wasn’t to make it responsive. I know it will look more professional if it was as the issue currently is that on some devices the alignment makes it hard for users to see all displayed information.
 
 <br />
 
