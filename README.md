@@ -1,4 +1,4 @@
-# MarvelCharactersAPI
+# MarvelAlias
 
 This project is bult with React and allows the user to search for a marvel character within the marvel database and in return be displayed the typed in character’s name, bio and image using the marvel API and styling help using SCSS.
 
